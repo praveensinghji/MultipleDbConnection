@@ -1,0 +1,15 @@
+spring:
+  mysql:
+    datasource:
+     driverClassName: com.mysql.cj.jdbc.Driver
+     url: jdbc:mysql://localhost:3306/praveen
+     username: root
+     password: password
+
+---
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost\SQLEXPRESS;databaseName=ftwdb;trustServerCertificate=true
+    username: praveen
+    password: password
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
